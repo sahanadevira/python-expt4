@@ -1,0 +1,15 @@
+s = input("Enter a string(enter with space):" )
+list =[]
+word = s.split()
+
+for w in word:
+    list.append(w)
+    
+print(list)
+count = 0
+
+for l in list:
+    if len(l) % 2 != 0:
+        count +=1
+        print(l)
+print(count)
